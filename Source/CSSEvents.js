@@ -2,7 +2,7 @@
 
 var prefix =
 	(Browser.safari || Browser.Platform.ios) ? 'webkit' :
-	(Browser.firefox) ? 'moz' :
+	(Browser.firefox) ? '' :
 	(Browser.opera) ? 'o' :
 	(Browser.ie) ? 'ms' : '';
 
