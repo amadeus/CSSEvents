@@ -16,10 +16,9 @@ var eventTypes = [
 
 var fn = function(eventType){
 
-	var customType = eventType;
-
 	Element.NativeEvents[eventType.toLowerCase()] = 2;
 
+	var customType = eventType;
 	customType = prefix + customType.capitalize();
 	Element.NativeEvents[customType] = 2;
 
