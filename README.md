@@ -1,9 +1,7 @@
-CSS Events
-==============
+CSSEvents
+==================
 
-Adds crossbrowser support for CSS Animation and Transition events in MooTools 1.3
-
-Examples:
+Adds cross-browser support for CSS Animation and Transition events in MooTools 1.3
 
 	element.addEvents({
 		'transitionstart': [Function],
@@ -15,7 +13,7 @@ Examples:
 
 
 Supported Browsers
-==============
+==================
 
 * Safari 4/5
 * iPhone Safari
