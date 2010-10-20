@@ -5,7 +5,7 @@ Adds cross-browser support for CSS Animation and Transition events in MooTools 1
 
 
 How to use
-==================
+----------
 
 	element.addEvents({
 		'transitionstart': [Function],
