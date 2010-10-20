@@ -3,6 +3,10 @@ CSSEvents
 
 Adds cross-browser support for CSS Animation and Transition events in MooTools 1.3
 
+
+How to use
+==================
+
 	element.addEvents({
 		'transitionstart': [Function],
 		'transitionend': [Function],
