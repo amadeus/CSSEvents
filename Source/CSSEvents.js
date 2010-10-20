@@ -1,8 +1,7 @@
 (function(){
 
 var prefix =
-	(Browser.safari || Browser.Platform.ios) ? 'webkit' :
-	(Browser.firefox) ? '' :
+	(Browser.safari || Browser.chrome || Browser.Platform.ios) ? 'webkit' :
 	(Browser.opera) ? 'o' :
 	(Browser.ie) ? 'ms' : '';
 
@@ -19,7 +18,10 @@ var fn = function(eventType){
 	Element.NativeEvents[eventType.toLowerCase()] = 2;
 
 	var customType = eventType;
-	customType = prefix + customType.capitalize();
+	
+	if (prefix) customType = prefix + customType.capitalize();
+	else customType = customType.toLowerCase();
+
 	Element.NativeEvents[customType] = 2;
 
 	Element.Events[eventType.toLowerCase()] = {
