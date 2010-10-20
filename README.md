@@ -17,7 +17,7 @@ How to use
 
 
 Supported Browsers
-==================
+----------
 
 * Safari 4/5
 * iPhone Safari
