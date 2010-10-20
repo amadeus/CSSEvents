@@ -1,3 +1,19 @@
+/*
+---
+description: CSSEvents
+
+license: MIT-style
+
+authors:
+- Amadeus Demarzi (http://enmassellc.com/)
+
+requires:
+ core/1.3: [Core/Core, Core/Event, Core/Element.Event, Core/String]
+
+provides: [Element.Events.transitionstart, Element.Events.transitionend, Element.Events.animationstart, Element.Events.animationend, Element.Events.animationiteration]
+...
+*/
+
 (function(){
 
 var prefix =
